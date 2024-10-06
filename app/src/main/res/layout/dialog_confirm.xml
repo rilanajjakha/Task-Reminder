@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:background="@drawable/dialog"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_gravity="center"
+    android:layout_width="335dp"
+    android:layout_height="200dp">
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SimpliRemind"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/dialogMessege"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do you want to add this as a new task?"
+        android:textSize="16sp"
+        android:paddingBottom="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btnNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No"
+            android:background="@drawable/dialog"
+            android:textColor="@color/red"/>
+
+        <Button
+            android:id="@+id/btnYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:background="@drawable/dialog"
+            android:textColor="@color/blue"/>
+
+    </LinearLayout>
+</LinearLayout>

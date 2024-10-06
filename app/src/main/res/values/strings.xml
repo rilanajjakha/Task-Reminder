@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Task Reminder</string>
+    <array name="repeat_option">
+        <item>Once</item>
+        <item>Daily</item>
+        <item>Mon to Fry</item>
+    </array>
+</resources>
